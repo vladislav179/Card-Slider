@@ -12,6 +12,9 @@ body {
   justify-content: center;
   background: #faebefff;
 }
+.swiper {
+  width: 1200px;
+}
 section .card .images {
   height: 140px;
   width: 140px;

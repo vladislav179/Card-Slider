@@ -7,7 +7,7 @@
     <title>Card Slider</title>
     <link
       rel="stylesheet"
-      href="https://api.iconify.design/ic:sharp-facebook.svg"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <link
       rel="stylesheet"
@@ -17,12 +17,48 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
     <section>
-      <div class="container">
-        <div class="content">
-          <div class="card">
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="images"><img src="images/Vlad.jpeg" alt="" /></div>
+
+              <div class="socialMedia-icons">
+                
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+
+              <div class="nameAndProfessions">
+                <span class="names">Vladislav Cojuhari</span>
+                <p>Intern</p>
+                <span class="professions">Front End Engineer</span>
+              </div>
+
+              <div class="section_skills">
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+
+              </div>
+
+              <div class="buttons">
+                <button class="about">About</button>
+                <button class="Hire">Hire</button>
+              </div>
+            </div>
+          </div>
+          
+
+
+           <div class="swiper-slide card">
             <div class="card-content">
               <div class="images"><img src="images/vadim.jpeg" alt="" /></div>
 
@@ -33,15 +69,15 @@
               </div>
 
               <div class="nameAndProfessions">
-                <span class="names">name</span>
+                <span class="names">Vadim Vengreniuc</span>
+                <p>Senior</p>
                 <span class="professions">Full Stack Engineer</span>
               </div>
 
               <div class="section_skills">
                 <i class="fa-brands fa-react"></i>
                 <i class="fa-brands fa-node"></i>
-                <i class="fa-brands fa-sass"></i
-                ><i class="fa-solid fa-database"></i>
+                <i class="fa-solid fa-database"></i>
               </div>
 
               <div class="buttons">
@@ -50,8 +86,149 @@
               </div>
             </div>
           </div>
+          
+
+           <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="images"><img src="images/Ahmed.jpeg" alt="" /></div>
+
+              <div class="socialMedia-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+
+              <div class="nameAndProfessions">
+                <span class="names">Ahmed Vengreniuc</span>
+                 <p>Junior</p>
+                <span class="professions">Full Stack Engineer</span>
+              </div>
+
+              <div class="section_skills">
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-php"></i>
+                <i class="fa-brands fa-sass"></i
+                <i class="fa-solid fa-database"></i>
+              </div>
+
+              <div class="buttons">
+                <button class="about">About</button>
+                <button class="Hire">Hire</button>
+              </div>
+            </div>
+          </div>
+          
+
+           <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="images"><img src="images/person1.png" alt="" /></div>
+
+              <div class="socialMedia-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+
+              <div class="nameAndProfessions">
+                <span class="names">Name</span>
+                <p>Experience</p>
+                <span class="professions">Position</span>
+              </div>
+
+              <div class="section_skills">
+               <i class="fa-solid fa-code"></i>
+              </div>
+
+              <div class="buttons">
+                <button class="about">About</button>
+                <button class="Hire">Hire</button>
+              </div>
+            </div>
+          </div>
+
+           <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="images"><img src="images/person1.png" alt="" /></div>
+
+              <div class="socialMedia-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+
+              <div class="nameAndProfessions">
+                <span class="names">Name</span>
+                <p>Experience</p>
+                <span class="professions">Position</span>
+              </div>
+
+              <div class="section_skills">
+               <i class="fa-solid fa-code"></i>
+              </div>
+
+              <div class="buttons">
+                <button class="about">About</button>
+                <button class="Hire">Hire</button>
+              </div>
+            </div>
+          </div>
+          
+
+           <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="images"><img src="images/person1.png" alt="" /></div>
+
+              <div class="socialMedia-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+
+              <div class="nameAndProfessions">
+                <span class="names">Name</span>
+                <p>Experience</p>
+                <span class="professions">Position</span>
+              </div>
+
+              <div class="section_skills">
+              <i class="fa-solid fa-code"></i>
+              </div>
+
+              <div class="buttons">
+                <button class="about">About</button>
+                <button class="Hire">Hire</button>
+              </div>
+            </div>
+          </div>
+          
+
+          
         </div>
       </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
     </section>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
